@@ -83,7 +83,7 @@ html {
 #home::before {
     content: "";
     position: absolute;
-    background: url("static/background/bg1.jpg") no-repeat center center/cover;
+    background: url("../static/background/bg1.jpg") no-repeat center center/cover;
     height: 642px;
     top: 0px;
     left: 0px;
@@ -138,7 +138,7 @@ html {
 #client-section::before {
     content: "";
     position: absolute;
-    background: url("static/background/bg2.jpg") no-repeat center center/cover;
+    background: url("../static/background/bg2.jpg") no-repeat center center/cover;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -171,7 +171,7 @@ html {
     height: 100%;
     z-index: -1;
     opacity: 0.7;
-    background: url("static/background/bg3.jpg") no-repeat center center/cover;
+    background: url("../static/background/bg3.jpg") no-repeat center center/cover;
 }
 
 #contact-box {
@@ -230,73 +230,4 @@ footer {
 
 .center {
     text-align: center;
-}
-
-/* Media Query */
-
-@media (max-width: 1170px) {
-
-    /* Navigation */
-    #navbar {
-        flex-direction: column;
-    }
-
-    #navbar ul li a {
-        font-size: 1rem;
-        padding: 0px 7px;
-        padding-bottom: 8px;
-    }
-
-    /* Home section */
-    #home {
-        height: 370px;
-        padding: 3px 28px;
-    }
-
-    #home::before {
-        height: 480px;
-    }
-
-    #home p {
-        font-size: 13px;
-    }
-
-    /* Services section  */
-    #services {
-        flex-direction: column;
-    }
-
-    #services .box {
-        padding: 14px;
-        margin: 2px 0px;
-        margin-bottom: 20px;
-    }
-
-    /* Clients section */
-    #clients {
-        flex-wrap: wrap;
-    }
-
-    #clients img {
-        width: 66px;
-        padding: 6px;
-        height: auto;
-    }
-
-    /* Contact us section */
-    #contact-box form {
-        width: 80%;
-    }
-
-    /* Footer */
-
-    /* Utility classes */
-    .h-primary {
-        font-size: 26px;
-    }
-
-    .btn {
-        font-size: 13px;
-        padding: 4px 8px;
-    }
 }
